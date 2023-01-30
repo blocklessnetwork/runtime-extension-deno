@@ -7,7 +7,7 @@ Deno.test(function test_extension() {
     alias: "tester",
     description: "This is a test extension",
   });
-  
+
   const encoder = new TextEncoder();
   assertEquals(
     extension.verify(),
